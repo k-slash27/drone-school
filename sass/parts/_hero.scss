@@ -1,0 +1,95 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1440 / 914;
+
+    @media screen and (max-width: 768px) {
+        height: 100vh;
+    }
+
+    &__wrapper {
+        position: absolute;
+        background: url(../img/bg-hero.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+
+        @media screen and (max-width: 768px) {
+            background-position: bottom center;
+            top: 0;
+        }
+    }
+
+    &__content {
+        position: absolute;
+        top: calc(50% + 80px);
+        right: 80px;
+        height: 245px;
+        z-index: 1;
+        text-align: center;
+        transform: translateY(-50%);
+
+        @media screen and (max-width: 768px) {
+            right: 50%;
+            top: calc(50% + 60px);
+            transform: translate(50%, -50%);
+            width: 100%;
+        }
+    }
+
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-family: Russo One;
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 0.96; /* 96% */
+        letter-spacing: 4.5px;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        @media screen and (max-width: 768px) {
+            font-size: 46px;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__sub {
+        color: #FFF;
+        text-align: center;
+        font-family: Noto Sans JP;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.26; /* 126% */
+        letter-spacing: 1.8px;
+        margin-top: 23px;
+        font-weight: 900;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__btn {
+        display: inline-flex;
+        align-items: flex-start;
+        margin-top: 46px;
+        gap: 20px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+}
+
+.about {
+    text-align: center;
+}

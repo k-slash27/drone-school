@@ -669,6 +669,7 @@ body {
   border-radius: 16px;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  max-width: 980px;
 }
 
 .course {
@@ -979,12 +980,12 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
-  line-height: 2.33333; /* 233.333% */
   margin-right: 10px;
 }
 @media screen and (max-width: 768px) {
   .price__list__item .title span {
     font-size: 16px;
+    line-height: 2.33333;
   }
 }
 .price__list__item .num {
@@ -1029,6 +1030,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .price__list__item .sub {
+    min-height: auto;
     text-align: left;
   }
 }

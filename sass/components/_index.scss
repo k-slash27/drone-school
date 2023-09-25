@@ -2,6 +2,7 @@
 @use "button";
 
 body {
+    font-family: "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
     overflow-x: hidden;
 }
 
@@ -66,7 +67,7 @@ body {
 
 .attention {
     color: rgba(36, 37, 40, 0.7);
-    font-family: Noto Sans JP;
+    // font-family: Noto Sans JP;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;

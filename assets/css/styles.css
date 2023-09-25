@@ -185,7 +185,6 @@ svg {
 }
 .btn__contact span {
   color: #000;
-  font-family: Noto Sans JP;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -250,7 +249,6 @@ svg {
 }
 .btn__submit span {
   color: #FFF;
-  font-family: Noto Sans JP;
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
@@ -303,7 +301,6 @@ svg {
 .btn__submit.--cta span {
   color: #FFF;
   text-align: center;
-  font-family: Noto Sans JP;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -321,6 +318,7 @@ svg {
 }
 
 body {
+  font-family: "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
   overflow-x: hidden;
 }
 
@@ -402,7 +400,6 @@ body {
 
 .attention {
   color: rgba(36, 37, 40, 0.7);
-  font-family: Noto Sans JP;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -566,7 +563,6 @@ body {
 .hero__sub {
   color: #FFF;
   text-align: center;
-  font-family: Noto Sans JP;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
@@ -652,7 +648,6 @@ body {
 .about__txt {
   max-width: 960px;
   color: rgba(36, 37, 40, 0.7);
-  font-family: Noto Sans JP;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -801,7 +796,6 @@ body {
 }
 .course__list__item__content .sub {
   color: rgba(36, 37, 40, 0.7);
-  font-family: Noto Sans JP;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -810,7 +804,6 @@ body {
 }
 .course__list__item__content .info {
   color: #242528;
-  font-family: Noto Sans JP;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1019,7 +1012,6 @@ body {
 .price__list__item .sub {
   color: rgba(36, 37, 40, 0.7);
   text-align: center;
-  font-family: Noto Sans JP;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -1052,7 +1044,6 @@ body {
 }
 .price__list__item .points li {
   color: #242528;
-  font-family: Noto Sans JP;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -1469,7 +1460,6 @@ body {
 .cta__contact .note {
   color: rgba(36, 37, 40, 0.7);
   text-align: center;
-  font-family: Noto Sans JP;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
